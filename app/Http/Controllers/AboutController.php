@@ -6,8 +6,7 @@ use Illuminate\Http\Request;
 
 class AboutController extends Controller
 {
-    public function about()
-    {
-        return "1941720204- Moch Farchan Agil";
-}
+    public function about(){
+        return view('about');
+    }
 }
